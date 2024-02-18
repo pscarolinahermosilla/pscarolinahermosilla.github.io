@@ -1,0 +1,363 @@
+/* Layout: */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #233645;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+}
+a:visited {
+  color: #627282;
+}
+
+svg.icon {
+  color: #00c3a5;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #233645;
+}
+
+p,
+ul {
+  line-height: 1.8;
+  margin: 0;
+}
+
+.widget-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 30px 0;
+  background-color: #f7f7f7;
+}
+
+.aboutme-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 0 0;
+  background-color: #fff;
+}
+
+.help-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+  background-color: #fff;
+}
+.speciality-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 0px 0;
+  background-color: #f7f7f7;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 0px 0;
+  background-color: #00c3a5;
+}
+
+.degree-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0 50px 0;
+  background-color: #fff;
+}
+
+.aboutme,
+.help,
+.speciality,
+.degree,
+.footer {
+  width: 400px;
+  margin: auto;
+  padding: 30px 30px 50px 30px;
+}
+
+.aboutme {
+  padding: 5px 30px 50px 30px;
+}
+
+.speciality {
+  padding: 5px 30px 10px 30px;
+}
+
+.speciality img {
+  padding: 0 50px;
+  width: 100%;
+  max-width: 300px;
+}
+.speciality .speciality-title {
+  font-weight: bold;
+  margin: 10px 0 50px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.speciality .speciality-body {
+  text-align: center;
+}
+
+.help-medecine {
+  display: flex;
+  margin: 50px 0 30px 0;
+  font-weight: bold;
+}
+
+.footer img {
+  padding: 0 50px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.footer .footer-button {
+  background-color: #3d83df;
+  color: #fff;
+  border-color: #3d83df;
+  text-decoration: none;
+  margin: 15px 15px;
+  text-align: center;
+  padding: 0.534rem 0.8rem;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  height: 60px;
+}
+.footer .footer-button:hover {
+  background-color: #2f7add;
+  border-color: #3d83df;
+}
+.footer .footer-card {
+  cursor: pointer;
+  text-align: center;
+}
+.footer .footer-card a {
+  text-decoration: none;
+}
+.footer .footer-card a:visited {
+  color: #627282;
+}
+.locations {
+  padding: 5px 30px 30px 30px;
+}
+.reviews,
+.locations {
+  flex: 1;
+  min-width: 400px;
+  max-width: 400px;
+}
+.degree {
+  color: #fff;
+  background-color: #3d83df;
+  padding: 30px 30px 40px 30px;
+}
+.degree .degree-icon {
+  text-align: center;
+}
+.degree h2 {
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #00c3a5;
+  min-height: 90px;
+}
+.navbar .container {
+  width: 800px;
+}
+.navbar h1 {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: 3em;
+  padding: 20px 20px 0px 20px;
+  margin: 0;
+  color: #fff;
+}
+.navbar .subtitle {
+  display: block;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.5em;
+  padding: 0px 20px 20px 20px;
+  margin: 0;
+  color: #fff;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.navbar a:visited {
+  color: #fff;
+}
+.navbar li a {
+  color: #fff;
+  display: block;
+  padding: 20px 20px;
+  text-decoration: underline;
+}
+.navbar li a:hover,
+.navbar .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+/* menu */
+.navbar .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+/* menu icon */
+.navbar .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+.navbar .menu-icon .navicon {
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+.navbar .menu-icon .navicon:before,
+.navbar .menu-icon .navicon:after {
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+.navbar .menu-icon .navicon:before {
+  top: 5px;
+}
+.navbar .menu-icon .navicon:after {
+  top: -5px;
+}
+/* menu btn */
+.navbar .menu-btn {
+  display: none;
+}
+.navbar .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+.navbar .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+.navbar .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+.navbar .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+.navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+.phone {
+  display: flex;
+  font-weight: 300;
+  margin-top: 30px;
+  font-size: 1.1em;
+}
+.phone svg {
+  position: relative;
+  top: -4px;
+  left: 3px;
+  margin-right: 6px;
+}
+.marker {
+  display: flex;
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+.marker svg {
+  position: relative;
+  left: -6px;
+  margin-right: -2px;
+}
+.address {
+  font-weight: 600;
+}
+.address-info {
+  font-weight: 300;
+}
+.online {
+  display: flex;
+  margin-top: 30px;
+  font-size: 1.1em;
+}
+.online svg {
+  position: relative;
+  top: -3px;
+  left: 0px;
+  margin-right: 6px;
+}
+
+/* Responsive: */
+@media only screen and (min-width: 768px) {
+  .navbar h1 {
+    font-size: 4em;
+  }
+  .widget-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .aboutme,
+  .help,
+  .speciality,
+  .degree,
+  .footer {
+    width: 800px;
+  }
+  .speciality,
+  .footer {
+    display: flex;
+  }
+  .speciality div,
+  .footer div {
+    flex: 1;
+  }
+  .degree {
+    display: flex;
+  }
+  .locations {
+    padding: 5px 0px 30px 60px;
+  }
+}
+/* 48em = 768px */
+@media (min-width: 768px) {
+  .navbar li {
+    float: left;
+  }
+  .navbar li a {
+    padding: 20px 30px;
+  }
+  .navbar .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .navbar .menu-icon {
+    display: none;
+  }
+}
