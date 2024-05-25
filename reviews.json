@@ -1,0 +1,683 @@
+script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "Psicóloga Clínica",
+  "image": "",
+  "brand": {
+    "@type": "Brand",
+    "name": "Carolina Hermosilla Sagurie"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1",
+    "reviewCount": "55"
+  },
+  "review": [{
+    "@type": "Review",
+    "reviewBody": "He visto bastantes psicologas pero Carolina es diferente porque además de la experiencia, tiene los titulos que la certifican cono terapeuta de parejas. Gracias a ella mejora mi relación con mi esposa que no mejoró con otros psicologos. Gracias Carolina!.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2024-05-11",
+    "author": {"@type": "Person", "name": "Sergio Fuentes"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Una excelente profesional muy empatica y dedicada escucha vo atención y se d el tiempo con sus pacientes muy recomendada además atiende en un ambiente muy cómodo e íntimo",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2024-03-28",
+    "author": {"@type": "Person", "name": "Alejandra"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Hasta ahora puedo decir que me encanto. Empática y super receptiva.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2024-03-19",
+    "author": {"@type": "Person", "name": "Martina"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Muy buena profesional, me ayudó a resignificar y sanar. Estoy sumamente agradecido con su servicio",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2024-02-20",
+    "author": {"@type": "Person", "name": "Martin Ahumada"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente profesional, 100% recomendable, muy asertiva en sus consejos",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2024-01-26",
+    "author": {"@type": "Person", "name": "Cp"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Muy buena escucha que logra poder tener un encuentro cercano y agradable.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2024-01-21",
+    "author": {"@type": "Person", "name": "Cristobal Meza"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente profesional, muy asertiva, empatica y dedicada, 10/10 la recomiendo.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "4",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2024-01-21",
+    "author": {"@type": "Person", "name": "Susana"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Es una excelente profesional, he visto muy buenos resultados en mi hija, cambios positivos y mucho apoyo de su parte. Para mi hija es un tremendo apoyo",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-12-28",
+    "author": {"@type": "Person", "name": "Hilda Escalera"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Intenta hacerte sentir cómoda desde el primer momento, te entrega espacios respetuosos para expresarte y logra que te sientas en total confianza. Para aquellas personas que es nuestra primera experiencia con psicólogo, Carolina es una profesional 100% recomendada.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-12-11",
+    "author": {"@type": "Person", "name": "Niccole"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Muy buena sesión, asertiva y de mucha llegada. Lugar muy acogedor, puntual y de buena comunicación",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-11-11",
+    "author": {"@type": "Person", "name": "Juan"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Consulta muy entretenida, Carolina abre un espacio en el cual es muy fácil compartir ideas y experiencias. Veo un gran progreso en mi hija",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-11-09",
+    "author": {"@type": "Person", "name": "Hugo Salazar"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Carolina es una excelente profesional. Muy cercana, empatica y dedicada en sus atención. Agradezco haberla conocido ya que su terapia dio frutos en mi rapidamente.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-11-03",
+    "author": {"@type": "Person", "name": "Debora"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "La doctora Carolina es una muy atenta, simpática y empatica, me ayudó a recuperar mi relación y mi autoestima. Se nota que quiere el bienestar integral de sus pacientes, la recomiendo al 100% estamos muy felices con el tratamiento. Gracias Carolina",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-09-17",
+    "author": {"@type": "Person", "name": "Milena"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Muy dedicada y escucha en todo momento, en ningún momento quiso intervenir cuando yo hablaba, se agradece mucho ser escuchado",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-09-16",
+    "author": {"@type": "Person", "name": "Juan Pablo"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "El lugar es central y acogedor. Me encontré con una profesional cálida y me sentí bastante cómoda, se generó un ambiente de confianza lo que me ayudó a expresar los temas que me inquietaban. Tengo intención de seguir asistiendo para poder trabajar herramientas que me ayuden a tratar con el stress y ansiedad.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-08-21",
+    "author": {"@type": "Person", "name": "Bernardita E."},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente atención, ambiente acogedor, trato cordial, lenguaje muy claro y explicativo de los temas abordados.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-08-21",
+    "author": {"@type": "Person", "name": "Antonio G"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Carolina es una excelente profesional. Me ha ayudado muchísimo en mi proceso. Es muy cercana, amorosa, empática y dedicada. Siento que he avanzado bastante y hemos podido abordar mucho más allá de mi motivo de consulta inicial. Por otro lado, es flexible con los horarios para agendar cita y los lugares donde atiende son muy acogedores. La recomiendo al 100%.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-07-07",
+    "author": {"@type": "Person", "name": "Karina M."},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Yo nunca me había sentido tan cómoda con una psicóloga, me da confianza para expresarme y siento que me ayuda a avanzar. Además puedo ir sin problema ya que me acomoda los horarios de atención y la ubicación es fácil de llegar y uno se siente a gusto.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-06-07",
+    "author": {"@type": "Person", "name": "Karen"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Llevo meses en terapia con Carolina, es una excelente profesional, muy cercana, cada vez que voy salgo aliviado, totalmente recomendable",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-05-10",
+    "author": {"@type": "Person", "name": "Sebastián"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Carolina es una especialista muy comprometida, dedicada y confiable con sus pacientes. Además, es una persona muy calida y se nota el amor y la vocación que tiene por su trabajo, la recomiendo 100% gracias por todo Carolina!",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-02-16",
+    "author": {"@type": "Person", "name": "Reyla Queti"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Me sentí escuchada y comprendida, me entregaron herramientas para poder trabajar los problemas que compartí. Excelente comunicación, estoy emocionada por seguir progresando y aprendiendo más de mí misma.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2023-01-21",
+    "author": {"@type": "Person", "name": "C.P."},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Muy buena atención, cordialidad, confianza. Carolina y el lugar hace que el momento sea muy acogedor.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-12-17",
+    "author": {"@type": "Person", "name": "L.H"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Mi experiencia fue fantástica,me ayudó mucho,el trato fue esquisito y gracias a su labor mi vida mejoró bastante, gracias",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-12-15",
+    "author": {"@type": "Person", "name": "Javier Fernández"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente profesional, me ha ayudado en un momento muy delicado de mi vida, haciéndome salir adelante y a tomar mejores decisiones. A pesar de mi escepticismo con las terapias, llegué a confiar y a entender muchos aspectos importantes, los cuales son explicados muy claramente y de forma amena. La recomiendo 100%. Es más, un familiar importante también la ha visitado y le ha cambiado la vida.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-11-22",
+    "author": {"@type": "Person", "name": "Víctor"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente atencion y dedicación en cada visita. Consulta esta ubicada en un lugar centrico fácil de llegar",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-10-18",
+    "author": {"@type": "Person", "name": "C.P"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "A pesar de llevar pocas sesiones hasta ahora me siento muy cómoda en la sesión, me ha sabido escuchar con atención y paciencia",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-08-30",
+    "author": {"@type": "Person", "name": "Valentina"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Me gusto la profesional! Carolina es muy cercana, amable y empatica, la recomiendo porque mi hija quedó feliz. Gracias",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-08-24",
+    "author": {"@type": "Person", "name": "Mariela"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Es muy buena! la recomiendo.. es creíble, amable y muy asertiva .. gracias a ella pude recuperar mi matrimonio ! Gracias Carolina",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-07-15",
+    "author": {"@type": "Person", "name": "Arlette"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "En lo personal. Me dió la confianza para poder sentirme cómodo . Y tengo confianza en que podrá ayudar de buena forma. Al trascurso de las terapias.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-07-13",
+    "author": {"@type": "Person", "name": "Emilio López"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Muy agradecida de la buena acogida y respeto entregado por Carolina. Hace mucho tiempo estaba en búsqueda de un buen psicólogo y creo que la encontré! Nos vemos en la próxima sesión Carolina",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-07-12",
+    "author": {"@type": "Person", "name": "caf"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Es muy buena en lo que hace me gusta por que me pude abrir con ella y me a servido mucho y es la mejor",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-07-04",
+    "author": {"@type": "Person", "name": "Matias"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente profesional, quedé muy feliz y contento. Personalmente me es muy difícil abrirme a otras personas pero su amabilidad y empatía me entregaron un espacio grato y seguro, muchas gracias Carolina!",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-06-23",
+    "author": {"@type": "Person", "name": "Luis"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Espectacular, Carolina es muy amable super empatica y muy acertiva. He estado con ella ya más de dos meses y ha sido muy positivo para mi. De verdad intenten ir con ella, sabe muchas cosas. Gracias",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-05-26",
+    "author": {"@type": "Person", "name": "M.B.M.C"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Me ayudó a ver qué debo enfocarme en otras cosas que son valiosas para mí y no solo en lo malo, es muy profesional.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-05-10",
+    "author": {"@type": "Person", "name": "Mc"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Muy profesional. Me sentí en confianza desde el principio hasta el final. Gracias! Recomendable 100%",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-05-06",
+    "author": {"@type": "Person", "name": "SF"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Es una psicóloga muy buena muy convincente, me encantó, es muy buena escuchando, fue muy simpática y comprensiva, tuvo mucha paciencia y es muy amable, gracias Carolina me siento muy agradecida por tu trabajo en realidad gracias por todo.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-04-20",
+    "author": {"@type": "Person", "name": "Ac"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Con Carolina llegue de una manera increíble, he podido contarle. El tiempo que llevo con ella he podido crecer, sanar y mejorar demasiado. También su manera de hablar y expresar hace que pueda recibir su ayuda de manera muy agradable. Estoy demasiado contenta de contar con ella, el poder reconocer y ver mis avances.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-04-05",
+    "author": {"@type": "Person", "name": "Catalina"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Me escuchó y fue empáticaen su trato, se dio todo el tiempo para escuchar, no me interrumpió y fue acertiva",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-26",
+    "author": {"@type": "Person", "name": "J. V"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Siento que esta vez me servirá la terapia porque la psicóloga me parece Súper dedicada y eficiente.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-23",
+    "author": {"@type": "Person", "name": "Margarita"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente profesional, sus conocimientos en terapia familiar-de pareja combinado con su experiencia en yoga, me ayudaron muchísimo. Es una psicóloga que inspira confianza, calma, mucha paz. Gracias por tu dedicación! Sin duda, la terapia me ha ayudado muchísimo para auto observarme y advertir algunas prácticas que no eran tan sanas. Además cuando he llegado un poco inquieta y ansiosa a la sesión, la posibilidad de realizar ejercicios de respiración o practicar yoga como parte de la terapia lo hace maravilloso, me encanta!!!!",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-11",
+    "author": {"@type": "Person", "name": "Clau G"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Llevo unas pocas semanas atendiéndome con Carolina y desde el principio me sentí a gusto y cómoda en las sesiones. Es una profesional muy empática, asertiva y comprometida con su labor. Si bien la cantidad de sesiones que llevo con ella es poco para evaluar avances en mi proceso personal, en cada encuentro ha sido muy asertiva por lo que termino las sesiones con la sensación de que fue un tiempo provechoso y bien invertido. No es fácil encontrar psicólogo así que agradezco que me la hayan recomendado (la tercera es la vencida como le mencioné)",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-04",
+    "author": {"@type": "Person", "name": "Natalia"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Carolina es 100% profesional. Es dedicada con sus pacientes, empática y sobretodo preocupada ya que realiza terapias acomodándose siempre a las necesidades y requerimientos del paciente.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-04",
+    "author": {"@type": "Person", "name": "Paulina"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Carolina Hermosilla es una excelente profesional, a tratado a mis dos hijos después de haber estado ambos en manos de otros especialistas. Solo ella supo llegar donde otros no. Mis hijos hoy llevan una vida plena gracias a ella. Muy conforme y feliz, 100% recomendable.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-03",
+    "author": {"@type": "Person", "name": "Fernando Sepulveda Candia."},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Carolina me ayudo mucho a resolver y aclarar algunas problemas que tenía en mi vida privada, muy atenta alegre y empatica. Gracias!",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-03",
+    "author": {"@type": "Person", "name": "Ps"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente profesional, Carolina se nota muy preparada, actualizada y empatica. Fuimos como pareja y la recomiendo absolutamente!",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-03",
+    "author": {"@type": "Person", "name": "Luis Bastidas"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Carolina, siempre muy profesional, desde lo personal una mujer cálida y empatica con el proceso terapéutico.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-03",
+    "author": {"@type": "Person", "name": "Pía"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Muy dedicada, cercana y con excelente disposición. Además de demostrarse muy competente haciendo eficaz mi tratamiento. Le agradezco mucho",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-03",
+    "author": {"@type": "Person", "name": "CM"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente profesional, conocimientos sólidos y una gran variedad de herramientas para utilizar en casa sesión.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-03",
+    "author": {"@type": "Person", "name": "MtF"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente atención. Detallada, paciente y comprometida. Se preocupa además de hacer seguimiento. Totalmente recomendada.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-03",
+    "author": {"@type": "Person", "name": "Jorge Valdebenito"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente profesional, me sentí muy acogida y cómoda con su atención. Asertiva y clara con el tratamiento.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-03",
+    "author": {"@type": "Person", "name": "Maritza"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente profesional, 1000% recomendable. Tiene una dedicación única hacia el paciente, comprensiva, empática, cercana, con gran vocación. La terapia ha sido muy efectiva.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-03",
+    "author": {"@type": "Person", "name": "FT"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente Psicóloga, comprometida y entrega estrategias para que la persona pueda avanzar con las herramientas que uno ya posee.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-03",
+    "author": {"@type": "Person", "name": "Bárbara Leyton"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Fueron excelentes sesiones, con una titánica profesional que me motivó a crecer y enfrentar, sobran las palabras de agradecimiento.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-03-02",
+    "author": {"@type": "Person", "name": "Sebastián O"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente profesional muy cercana, empatica, risueña y atenta. Entrega ejercicios prácticos para el día a día.",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-02-23",
+    "author": {"@type": "Person", "name": "Sofía M"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  },{
+    "@type": "Review",
+    "reviewBody": "Excelente profesional, llevo con ella un tiempo y me siento muy cómoda, he sentido cambios positivos",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "datePublished": "2022-02-23",
+    "author": {"@type": "Person", "name": "Daniela"},
+    "publisher": {"@type": "Organization", "name": "Doctoralia"}
+  }]
+}
+</script>
+
+
+
